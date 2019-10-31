@@ -92,6 +92,7 @@
      background-color: #00AEFF;
      -webkit-text-fill-color: #ffffff;
      cursor: pointer;
+     opacity: 0.7;
  }
  .gate-btn>a:hover {
      opacity: 0.7;
@@ -119,7 +120,7 @@
 
 }
 .app-story {
-    min-width: 600px;
+    max-width: 600px;
     margin-bottom: 2rem;
 }
 .kid-story-app, .startng-app, .docufix-app, .xShare-app,
