@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand {
+     margin-left: 40px;
+}
+.navbar-toggler {
+    margin-left: 80px
+}
+.nav-link {
+    font-size: 1.4rem;
+    color: #474747;
+    line-height: 2.2rem;
+    
+}
+.nav-item>.nav-link:hover {
+    border: 0.1rem solid #00AEFF; 
+    background-color: #00AEFF;
+    -webkit-text-fill-color: #ffffff;
+    cursor: pointer;
+}
+.back {
+    background-image: url("https://res.cloudinary.com/chux/image/upload/v1572464182/Group_267_1_jocqcu.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 440px;
+    background-size: 510px;
+    color: #E5E5E5;
+}
+#HNG-first {
+    font-family: 'Open Sans';
+    color: #084482;
+    font-weight: 600px;
+    line-height: 54px;
+    margin-top: 100px;
+    margin-left: 6.5rem;
+    font-size: 40px;
+}
+#HNG-fist-para {
+    color: #474747;
+    line-height: 33px;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    margin-left: 6.5rem;
+}
+.app-backgroud-color, .startng-app, .docufix-app, .xShare-app, .HNGi7-app, .isthisarealjob-app, #footer {
+    background-color: rgba(196, 196, 196, 0.1);
+    width: 100%;
+}
+@media screen and (max-width: 500px){
+    .app-backgroud-color, .startng-app, .docufix-app, .xShare-app, .HNGi7-app, .isthisarealjob-app, #footer {
+        background-color: rgba(196, 196, 196, 0.1);
+        width: 200%;
+    }
+}
+.startng-image, .lancer-image, .Docufix-image, .car-park-image, .xShare-image,
+.HNG-Board-image,.HNGi7-app-image, .Wikipoli-app-image, .itarj-app-image, .kid-image  {
+    margin-top: 50px;
+}
+.startng-sucess, .app-story {
+    margin-top: 30px
+}
+/*.kidandstory  {
+    margin-top: 40px;
+}*/
+.gate-app, .kid-story-app, .trim-story-app,
+.startng-app, .lancer-app, .docufix-app, .car-park-app,
+.xShare-app,  .HNG-Board-app, .HNGi7-app, .Wikipoli-app, .isthisarealjob-app  {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto auto;
+    grid-gap: 80px;
+    
+}
+.app-info, .story-lancer, .carpark-info, .HNG-info, .wikipoli-info {
+    margin-left: 120px;
+}
+.app-know, .image-start, .Docufix-image, .xShare-image, .HNGi7-app-image, .itarj-app-image {
+    margin-left: 100px;
+}
+.Gate-pass-image, .kidandstory, .startng-sucess, .lancer-image, .carpark-info, 
+.car-park-image, .xSare-info, .HNG-Board-image, .HNGi7-info, .Wikipoli-app-image, .Istarj-info, .footer-space, .docufix-info {
+    margin-left: 6.5rem;
+}
+
+.app-story>h1 {
+    margin-top: 50px;
+    color: #084482;
+    line-height: 54px;
+    font-size: 40px;
+    font-weight: 600px;
+}
+.app-story>p {
+    color: #474747;
+    line-height: 150.2%px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+.gate-btn {
+    box-sizing: border-box;
+    border: 1px;
+    background-color: #00AEFF;
+    border-radius: 4px;
+    width: 8rem;
+    height: 2.5rem;
+
+}
+.btn-text {
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 0.31px;
+}
+.gate-btn>a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: #474747
+
+}
+#footer #footer-logo {
+    width: 280px;
+}
+
+.footer-nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.footer-nav h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #00AEFF;
+    margin-bottom: 20px;
+}
+
+.footer-nav #link-list a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    color: #00AEFF;
+    display: block;
+}
+
+#footer .footer-section a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;        
+    color: #737373;
+}
+
+#footer  #socials img {
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    text-align: center;
+}
+@media screen and (min-width:940px){
+    .footer-space {
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width: 500px){
+    #footer {
+        padding: 50px 60px;
+    }
+}
+@media screen and (max-width: 993px) {
+    .back {
+      background-position: right;
+      background-position-y: -0.2rem;
+      min-width: 44.5rem;
+      background-size: 18rem;
+    }
+    .gate-app, .kid-story-app, .trim-story-app,
+    .startng-app, .lancer-app, .docufix-app, .car-park-app,
+    .xShare-app,  .HNG-Board-app, .HNGi7-app, .Wikipoli-app, 
+    .isthisarealjob-app {
+      display: block;
+      align-self: center;
+  }
+  .app-story {
+      min-width: 600px;
+  }
+
+}
+    
